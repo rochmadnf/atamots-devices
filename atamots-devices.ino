@@ -1,4 +1,4 @@
-const int echoPins[3] = { 34, 35, 36 };
+const int echoPins[3] = { 34, 35, 39 };
 const int trigPins[3] = { 18, 19, 5 };
 
 float distances[3];
