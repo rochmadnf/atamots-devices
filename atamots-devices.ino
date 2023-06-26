@@ -204,12 +204,24 @@ float fuzzyErrorHandling(float atas, float kanan, float kiri, float init){
       return 60;
   }
 
+  if(atas > 49 && atas <= 51.99) {
+    return 61;
+  }
+
+  if(atas >= 47 && atas <= 49) {
+    return 62;
+  }
+  
   if(atas >= 43 && atas <= 46) {
     return 63;
   }
   
   if(atas >= 35 && atas <= 40){
       return random(65, 68);
+  }
+
+  if(atas >= 34 && atas < 35){
+    return 64.5;
   }
 
   return init;
